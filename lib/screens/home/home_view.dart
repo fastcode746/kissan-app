@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                           children: [
                             const CircleAvatar(
                               backgroundImage:
-                                  AssetImage('assets/images/logo.jpeg'),
+                                  AssetImage('assets/images/logo.jpg'),
                               radius: 25,
                               backgroundColor: Colors.white,
                             ),
@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                         const Text(
-                          'Welcome to Quick Medical Store',
+                          'Welcome to Kissan Connect',
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.white,

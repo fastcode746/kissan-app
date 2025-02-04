@@ -23,10 +23,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -56,11 +53,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCHEOHbMpcAMiL3-PkmuU02PFsSW9jKd4Y',
-    appId: '1:24489428835:android:4096fb0824f63be8feb556',
-    messagingSenderId: '24489428835',
-    projectId: 'e-commerce-adminpannel',
-    storageBucket: 'e-commerce-adminpannel.appspot.com',
+    apiKey: 'AIzaSyDhPOCsDQjP4Nk7TpaVWyZU9kuPjyVHHbA',
+    appId: '1:219880308068:android:e8ab4452c280c1f3170e71',
+    messagingSenderId: '219880308068',
+    projectId: 'kissan-app-b0109',
+    storageBucket: 'kissan-app-b0109.firebasestorage.app',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
@@ -71,4 +68,14 @@ class DefaultFirebaseOptions {
     authDomain: 'e-commerce-adminpannel.firebaseapp.com',
     storageBucket: 'e-commerce-adminpannel.appspot.com',
   );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyCA0yY9lgmzQlKIPftYwzXEcCl6ooJvWDM',
+    appId: '1:219880308068:ios:afa2fc0ecf2e8f39170e71',
+    messagingSenderId: '219880308068',
+    projectId: 'kissan-app-b0109',
+    storageBucket: 'kissan-app-b0109.firebasestorage.app',
+    iosBundleId: 'com.example.adminpanelapp',
+  );
+
 }

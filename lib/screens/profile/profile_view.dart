@@ -27,21 +27,21 @@ class ProfileScreen extends StatelessWidget {
                     margin: const EdgeInsets.only(right: 20, left: 16),
                     child: const CircleAvatar(
                       radius: 30,
-                      backgroundImage: AssetImage('assets/images/logo.jpeg'),
+                      backgroundImage: AssetImage('assets/images/logo.jpg'),
                     ),
                   ),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Muhammad Usman',
+                        'Farmer',
                         style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w600,
                             color: Colors.grey[700]),
                       ),
                       Text(
-                        'Welcome to  Quick Medical Store',
+                        'Welcome to  Kissan Connect',
                         style: TextStyle(fontSize: 13, color: Colors.grey[700]),
                       ),
                     ],

@@ -75,7 +75,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   margin: const EdgeInsets.only(bottom: 35),
                   child: Center(
                     child: Image.asset(
-                      'assets/images/splash-img.png',
+                      'assets/images/splash-img.jpeg',
                       width: 160,
                     ),
                   ),

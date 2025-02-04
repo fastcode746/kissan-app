@@ -27,10 +27,10 @@ class _AdminLoginState extends State<AdminLogin> {
       isLoading = true;
     });
     try {
-      final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
-          email: emailController.text, password: passwordController.text);
+      
       //Condition
-      if (credential.user?.email == 'usman2037966@gmail.com') {
+      if (emailController.text == 'admin@gmail.com' &&
+          passwordController.text == "admin123") {
         Navigator.pushReplacement(context,
             MaterialPageRoute(builder: (context) => const AdminScreen()));
       }
@@ -64,7 +64,7 @@ class _AdminLoginState extends State<AdminLogin> {
                   margin: const EdgeInsets.only(bottom: 35),
                   child: Center(
                     child: Image.asset(
-                      'assets/images/splash-img.png',
+                      'assets/images/splash-img.jpeg',
                       width: 160,
                     ),
                   ),

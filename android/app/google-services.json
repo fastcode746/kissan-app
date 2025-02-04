@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "24489428835",
-    "project_id": "e-commerce-adminpannel",
-    "storage_bucket": "e-commerce-adminpannel.appspot.com"
+    "project_number": "219880308068",
+    "project_id": "kissan-app-b0109",
+    "storage_bucket": "kissan-app-b0109.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:24489428835:android:4096fb0824f63be8feb556",
+        "mobilesdk_app_id": "1:219880308068:android:e8ab4452c280c1f3170e71",
         "android_client_info": {
           "package_name": "com.example.adminpanelapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCHEOHbMpcAMiL3-PkmuU02PFsSW9jKd4Y"
+          "current_key": "AIzaSyDhPOCsDQjP4Nk7TpaVWyZU9kuPjyVHHbA"
         }
       ],
       "services": {
